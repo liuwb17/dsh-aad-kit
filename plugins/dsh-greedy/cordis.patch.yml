@@ -1,0 +1,5 @@
+﻿# Uses the Organon task directory from the calling session cwd. No search at boot.
+- insert:
+    - id: aad-greedy
+      name: dsh-aad-greedy
+      config: {}

@@ -1,0 +1,35 @@
+{
+  "repository": "https://github.com/cheikh025/organon",
+  "commit": "fcd1e501ee589d363766136aceb60527a0f06b12",
+  "source_root": "plugins/dsh-evolve-loop",
+  "files": [
+    {
+      "path": "src/budget.js",
+      "sha256": "8ed3d6904f14b6ae14c7aa7da6fb6143e0917d251f03fe28d9920b58f32f5748"
+    },
+    {
+      "path": "src/candidates.js",
+      "sha256": "a619d8de7fd2841ccff7fd278d4c82e9455ce6d78431cdb5210c633d2219adb4"
+    },
+    {
+      "path": "src/files.js",
+      "sha256": "e078892cf79f384702bf976b077e268b4e4b40d40abb3fbaaabc985f6c647a68"
+    },
+    {
+      "path": "src/population.js",
+      "sha256": "91c484b5dc455be2b9da29fb88cebac2af50aae4faefb9fb580838075d129bfd"
+    },
+    {
+      "path": "src/providers/evaluate.js",
+      "sha256": "bf10dca8f44f8ef1559a47f529ef44a817805fee0a888af820428819984a0120"
+    },
+    {
+      "path": "src/providers/mutate.js",
+      "sha256": "16c291d93c721dbe75d96437c82e47de0635148141a908c4b4b2959568e8db6f"
+    },
+    {
+      "path": "src/providers/run_evaluator.py",
+      "sha256": "d89f54d6f961aa6bc3d5432e88e46123ed18f1988ae3861585dda6dc8bc34172"
+    }
+  ]
+}
