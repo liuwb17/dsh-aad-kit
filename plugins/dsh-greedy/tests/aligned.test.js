@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import {Greedy,inheritedModel,solutionText} from '../src/aligned.js';
+import {Greedy,inheritedModel,solutionText} from '../src/greedy.js';
 import {readPopulation,merit} from '../upstream/organon/src/population.js';
 export function fixture() {
  const root=fs.mkdtempSync(path.join(os.tmpdir(),'aligned-greedy-'));

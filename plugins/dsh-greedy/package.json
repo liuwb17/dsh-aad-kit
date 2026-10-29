@@ -5,7 +5,7 @@
   "main": "./src/index.js",
   "files": [
     "src/index.js",
-    "src/aligned.js",
+    "src/greedy.js",
     "src/model.js",
     "src/store.js",
     "upstream",

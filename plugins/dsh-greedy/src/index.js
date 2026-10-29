@@ -1,5 +1,5 @@
 ﻿import {defineTool} from '@deepseek-ai/dsh-tools';
-import {Greedy} from './aligned.js';
+import {Greedy} from './greedy.js';
 export const name='dsh-aad-greedy';
 export const inject=['llm','tools','subprocess'];
 export function apply(ctx) {

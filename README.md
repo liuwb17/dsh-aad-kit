@@ -9,7 +9,7 @@ The toolkit runs as a DSH plugin and includes a setup script, a ready-to-install
 | Component | Role | Location |
 | --- | --- | --- |
 | DSH session | Starts search chunks, inspects progress, and supplies the model configuration. | `PROMPT.md` |
-| Search loop | Runs greedy best-of-four search through `greedy_run`. Candidates in a batch share the same parent; the best strictly improving candidate becomes the next parent. | `plugins/dsh-greedy/src/aligned.js` |
+| Search loop | Runs greedy best-of-four search through `greedy_run`. Candidates in a batch share the same parent; the best strictly improving candidate becomes the next parent. | `plugins/dsh-greedy/src/greedy.js` |
 | Candidate generation | Makes one model call per candidate using the statement, parent program, and parent fitness. Edits are confined to the EVOLVE region. | `plugins/dsh-greedy/src/model.js` |
 | Evaluation | Executes the task's Python evaluator through DSH and records its fitness. | `plugins/dsh-greedy/upstream/organon/src/providers/` |
 | Run storage | Keeps candidate programs, evaluation results, lineage, budget, and model responses. | The task's `run/` directory |
